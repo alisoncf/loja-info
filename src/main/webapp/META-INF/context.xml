@@ -1,2 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Context path="/loja"/>
+<Context path="/lojainfo" >
+
+  <Resource auth="Container" driverClassName="org.mariadb.jdbc.Driver"
+            maxActive="10" maxIdle="30" maxWait="10000" 
+            name="jdbc/lojainfo" password="masterkey" type="javax.sql.DataSource"
+            url="jdbc:mariadb://localhost:3306/lojainfo" username="root"/>
+
+</Context>  
